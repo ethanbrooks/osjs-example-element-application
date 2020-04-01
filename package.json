@@ -1,7 +1,7 @@
 {
-  "name": "@osjs/example-iframe-application",
+  "name": "@osjs/example-element-application",
   "version": "1.1.2",
-  "description": "OS.js v3 Example IFrame Package",
+  "description": "OS.js v3 Example Angular Element Package",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint *.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/os-js/osjs-example-iframe-application.git"
+    "url": "git+https://github.com/ethanbrooks/osjs-example-element-application.git"
   },
   "keywords": [
     "osjs"
@@ -31,9 +31,9 @@
   "author": "Anders Evenrud <andersevenrud@gmail.com>",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/os-js/osjs-example-iframe-application/issues"
+    "url": "https://github.com/ethanbrooks/osjs-example-element-application/issues"
   },
-  "homepage": "https://github.com/os-js/osjs-example-iframe-application#readme",
+  "homepage": "https://github.com/ethanbrooks/osjs-example-element-application#readme",
   "osjs": {
     "type": "package"
   },

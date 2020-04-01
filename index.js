@@ -61,7 +61,7 @@ const register = (core, args, options, metadata) => {
       $content.appendChild(link);
 
 */
-
+/*
       let style1 = document.createElement( 'link' );
       style1.rel = 'stylesheet';
       style1.type = 'text/css';
@@ -73,12 +73,18 @@ const register = (core, args, options, metadata) => {
       style2.type = 'text/css';
       style2.href = proc.resource('https://cdn3.devexpress.com/jslib/19.2.5/css/dx.light.css');
       $content.append( style2 );
+*/
+      let style3 = document.createElement( 'link' );
+      style3.rel = 'stylesheet';
+      style3.type = 'text/css';
+      style3.href = proc.resource('https://cdnjs.cloudflare.com/ajax/libs/video.js/7.5.4/video-js.min.css');
+      $content.append( style3 );
 
       let script = document.createElement( 'script' );
       script.type = 'text/javascript';
       script.src = proc.resource('http://localhost:8080/element.js');
       $content.append( script );
-      let element = document.createElement( 'app-pivotapi' );
+      let element = document.createElement( 'app-video' );
       $content.append( element );
 
 /*

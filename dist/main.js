@@ -165,21 +165,30 @@ var register = function register(core, args, options, metadata) {
           $content.appendChild(link);
     
     */
-    var style1 = document.createElement('link');
-    style1.rel = 'stylesheet';
-    style1.type = 'text/css';
-    style1.href = proc.resource('https://cdn3.devexpress.com/jslib/19.2.5/css/dx.common.css');
-    $content.append(style1);
-    var style2 = document.createElement('link');
-    style2.rel = 'stylesheet';
-    style2.type = 'text/css';
-    style2.href = proc.resource('https://cdn3.devexpress.com/jslib/19.2.5/css/dx.light.css');
-    $content.append(style2);
+
+    /*
+          let style1 = document.createElement( 'link' );
+          style1.rel = 'stylesheet';
+          style1.type = 'text/css';
+          style1.href = proc.resource('https://cdn3.devexpress.com/jslib/19.2.5/css/dx.common.css');
+          $content.append( style1 );
+    
+          let style2 = document.createElement( 'link' );
+          style2.rel = 'stylesheet';
+          style2.type = 'text/css';
+          style2.href = proc.resource('https://cdn3.devexpress.com/jslib/19.2.5/css/dx.light.css');
+          $content.append( style2 );
+    */
+    var style3 = document.createElement('link');
+    style3.rel = 'stylesheet';
+    style3.type = 'text/css';
+    style3.href = proc.resource('https://cdnjs.cloudflare.com/ajax/libs/video.js/7.5.4/video-js.min.css');
+    $content.append(style3);
     var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = proc.resource('http://localhost:8080/element.js');
     $content.append(script);
-    var element = document.createElement('app-pivotapi');
+    var element = document.createElement('app-video');
     $content.append(element);
     /*
           const iframe = document.createElement('iframe');
@@ -215,7 +224,7 @@ module.exports = JSON.parse("{\"name\":\"MyIframeApplication\",\"category\":null
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/ethanbrooks/Documents/osjs-example-iframe-application/index.js */"./index.js");
+module.exports = __webpack_require__(/*! /Users/ethanbrooks/Documents/osjs-example-element-application/index.js */"./index.js");
 
 
 /***/ }),
